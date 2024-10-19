@@ -3,4 +3,5 @@
 
 This repository is to provide an overview of common algorithms.
 
-1. BinarySearch
+1.  LinearSearch
+2.  BinarySearch
