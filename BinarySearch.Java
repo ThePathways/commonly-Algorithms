@@ -6,7 +6,7 @@ public class BinarySearch {
             int mid = left + (right - left) >> 1;
             if (array[mid] == target) {
                 return mid;
-            } else if (array[mid] < target) {
+            } else if (target > array[mid]) {
                 left = mid + 1;
             } else {
                 right = mid - 1;
